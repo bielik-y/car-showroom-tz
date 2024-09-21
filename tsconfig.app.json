@@ -10,6 +10,9 @@
       "components/*": ["components/*"],
       "assets/*": ["assets/*"],
       "pages/*": ["pages/*"],
+      "utils/*": ["utils/*"],
+      "hooks/*": ["hooks/*"],
+      "context/*": ["context/*"]
     },
 
     /* Bundler mode */
@@ -26,5 +29,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src", "env.d.ts"]
 }
