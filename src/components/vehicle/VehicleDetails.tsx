@@ -14,7 +14,7 @@ const Container = styled.div`
 
 const Card = styled.div`
   max-width: 1000px;
-  flex: 1;
+  //flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
